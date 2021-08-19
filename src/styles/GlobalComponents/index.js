@@ -36,14 +36,14 @@ export const SectionTitle = styled.h2`
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
-  @media ${props => props.theme.breakpoints.md}{
+  @media ${props => props.theme.breakpoints.md} {
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
     margin-bottom: 12px;
     padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
 
-  @media ${props => props.theme.breakpoints.sm}{
+  @media ${props => props.theme.breakpoints.sm} {
     font-size: 32px;
     line-height: 40px;
     font-size: ${(props) => props.main ? '28px' : '32px'};
@@ -105,7 +105,7 @@ export const SectionSubText = styled.p`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
 
-@media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
     font-size: 16px;
     line-height: 25px;
@@ -131,6 +131,7 @@ export const SecondaryBtn = styled.button`
   margin-bottom: 80px;
   cursor: pointer;
   transition: 0.4s ease;
+
   &:focus {
     outline: none;
   }
@@ -147,8 +148,8 @@ export const SecondaryBtn = styled.button`
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
 
-  @media ${(props) => props.theme.breakpoints.md}{
-    margin-top: 24px; 
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin-top: 24px;
     margin-bottom: 64px;
     padding: 16px 24px;
     width: fit-content;
@@ -222,15 +223,17 @@ export const ButtonFront = styled.button`
   &:hover {
     opacity: 0;
   }
+
   &:focus {
     outline: none;
   }
+
   &:active {
     opacity: 1;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
 
-  &:disabled{
+  &:disabled {
     background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
     opacity: 0.5;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
@@ -268,7 +271,11 @@ export const LinkContainer = styled.div`
 `
 
 export const LinkIconImg = styled.div`
+<<<<<<< HEAD
   display: flex;  
+=======
+  display: flex;
+>>>>>>> 7c73f31cc0ed39fd72ebae4df977b851d6be17d3
   height: ${({large}) => large ? '32px' : '24px'};
 
   @media ${(props) => props.theme.breakpoints.md} {

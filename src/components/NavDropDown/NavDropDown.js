@@ -37,15 +37,15 @@ export const DropDownItem = styled.a`
   &:hover {
     transform: scale(1.05);
     background-color: #eee;
-    box-shadow: 0 3px 6px 3px rgba(0,0,0,.3);
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
   }
 
   &:nth-of-type(2n):hover {
-    box-shadow: 0 0 8px 4px rgba(0,0,0,.3);
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, .3);
   }
 
   &:nth-of-type(3n):hover {
-    box-shadow: 0 -3px 6px 3px rgba(0,0,0,.3);
+    box-shadow: 0 -3px 6px 3px rgba(0, 0, 0, .3);
   }
 `
 
