@@ -1,3 +1,5 @@
+import Accomplishments from "../components/Acomplishments/Accomplishments";
+
 export const projects = [
 	{
 		title: 'MERN Memories',
@@ -37,10 +39,16 @@ export const projects = [
 	},
 ];
 
-export const TimeLineData = [
+export const timeLineData = [
 	{year: 2016, text: 'Started my university',},
 	{year: 2017, text: 'Studied as a Computer Science Major',},
 	{year: 2018, text: 'I started the first static website in my life using html and css ',},
 	{year: 2020, text: 'Shared my projects with the world',},
 	{year: 2021, text: 'Started for finding jobs',},
+];
+
+export const accomplishmentsData = [
+	{number: 4, text: 'University Projects'},
+	{number: 5, text: 'Deployment Projects',},
+	{number: 10, text: 'Self Studying Projects',},
 ];
