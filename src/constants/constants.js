@@ -1,5 +1,3 @@
-import Accomplishments from "../components/Acomplishments/Accomplishments";
-
 export const projects = [
 	{
 		title: 'MERN Memories',

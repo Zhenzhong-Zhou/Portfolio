@@ -12,7 +12,7 @@ const Hero = () => (
 			<SectionText>
 				Some text.
 			</SectionText>
-			<Button onClick={() =>  window.location="https:google.com"}>Learn More</Button>
+			<Button onClick={() => window.location = "https:google.com"}>Learn More</Button>
 		</LeftSection>
 	</Section>
 );

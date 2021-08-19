@@ -5,11 +5,11 @@ import {
 	GridContainer,
 	HeaderThree,
 	Hr,
+	Img,
 	Tag,
 	TagList,
 	TitleContent,
-	UtilityList,
-	Img
+	UtilityList
 } from './ProjectsStyles';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import {projects} from '../../constants/constants';
@@ -19,7 +19,7 @@ const Projects = () => (
 		<SectionDivider/>
 		<SectionTitle main>Projects</SectionTitle>
 		<GridContainer>
-			{projects.map(({ id, image, title, description, tags, source, visit }) => (
+			{projects.map(({id, image, title, description, tags, source, visit}) => (
 				<BlogCard key={id}>
 					<Img src={image}/>
 					<TitleContent>
