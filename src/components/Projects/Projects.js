@@ -42,7 +42,6 @@ const Projects = () => (
 				</BlogCard>
 			))}
 		</GridContainer>
-
 	</Section>
 );
 
