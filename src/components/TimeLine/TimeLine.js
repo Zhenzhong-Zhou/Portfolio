@@ -58,11 +58,11 @@ const Timeline = () => {
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
-					{timeLineData.map((item, index)=> (
+					{timeLineData.map(({text, year}, index)=> (
 						<CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
 							<CarouselItem index={index} id={`carousel__item-${index}`} active={activeItem} onClick={(e) => handleClick(e, index)}>
 								<CarouselItemTitle>
-									{item.year}
+									{year}
 									<CarouselItemImg
 										width="208"
 										height="6"
@@ -94,14 +94,14 @@ const Timeline = () => {
 										</defs>
 									</CarouselItemImg>
 								</CarouselItemTitle>
-								<CarouselItemText>{item.text}</CarouselItemText>
+								<CarouselItemText>{text}</CarouselItemText>
 							</CarouselItem>
 						</CarouselMobileScrollNode>
 					))}
 				</>
 			</CarouselContainer>
 			<CarouselButtons>
-				{timeLineData.map((item, index) => (
+				{timeLineData.map(({text, year}, index) => (
 					<CarouselButton key={index} index={index} active={activeItem} onClick={(e) => handleClick(e, index)} type="button">
 						<CarouselButtonDot active={activeItem}/>
 					</CarouselButton>
