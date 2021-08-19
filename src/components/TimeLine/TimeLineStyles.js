@@ -1,27 +1,28 @@
-
 import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
   padding: 0rem;
-  list-style:none;
+  list-style: none;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   /* overflow-x: hidden; */
 
   margin-left: 32px;
-  &:first-of-type{
+
+  &:first-of-type {
     margin-left: 0px;
   }
 
   margin-bottom: 80px;
 
   //remove scrollbar
-  scrollbar-width: none;  
-   &::-webkit-scrollbar {
-     display: none;
-   }
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media ${props => props.theme.breakpoints.sm} {
     overflow-x: scroll;
@@ -35,7 +36,7 @@ export const CarouselContainer = styled.ul`
 export const CarouselMobileScrollNode = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
-    min-width: ${({ final }) => final ? `120%;` : `min-content`}
+    min-width: ${({final}) => final ? `120%;` : `min-content`}
   }
 `
 
@@ -47,7 +48,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
   }
-  
+
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
@@ -59,8 +60,8 @@ export const CarouselItem = styled.div`
     overflow: visible;
     position: relative;
     height: fit-content;
-    
-    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; 
+
+    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`};
   }
 `
 
@@ -81,7 +82,7 @@ export const CarouselItemTitle = styled.h4`
     line-height: 28px;
     margin-bottom: 4px;
   }
-  
+
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
@@ -89,7 +90,7 @@ export const CarouselItemTitle = styled.h4`
 `
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   width: 100%;
 
   @media ${props => props.theme.breakpoints.sm} {

@@ -1,11 +1,23 @@
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import {
+	BlogCard,
+	CardInfo,
+	ExternalLinks,
+	GridContainer,
+	HeaderThree,
+	Hr,
+	Tag,
+	TagList,
+	TitleContent,
+	UtilityList,
+	Img
+} from './ProjectsStyles';
+import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
+import {projects} from '../../constants/constants';
 
 const Projects = () => (
-  <div>
-    Projects
-  </div>
+	<div>
+		Projects
+	</div>
 );
 
 export default Projects;
