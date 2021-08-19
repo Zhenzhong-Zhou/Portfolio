@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
-  padding: 0rem;
+  padding: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@ export const CarouselContainer = styled.ul`
   margin-left: 32px;
 
   &:first-of-type {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   margin-bottom: 80px;
