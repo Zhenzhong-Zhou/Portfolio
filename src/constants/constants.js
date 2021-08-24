@@ -13,8 +13,8 @@ export const projects = [
 		description: "While building it I use many advanced React & JavaScript topics, and use Stripe for card transactions. And trust me, e-commerce applications are impressive.",
 		image: '/images/2.png',
 		tags: ['React', 'JavaScript'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
+		source: "https://github.com/Zhenzhong-Zhou/E-Commerce",
+		visit: "https://e-commerce-store-practice.netlify.app/",
 		id: 1,
 	},
 	{
