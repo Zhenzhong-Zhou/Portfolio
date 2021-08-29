@@ -271,12 +271,7 @@ export const LinkContainer = styled.div`
 `
 
 export const LinkIconImg = styled.div`
-< < < < < < < HEAD display: flex;
-= = = = = = = display: flex;
-
-  > > > > > > >
-
-  7 c73f31cc0ed39fd72ebae4df977b851d6be17d3
+  display: flex;
   height: ${({large}) => large ? '32px' : '24px'};
 
   @media ${(props) => props.theme.breakpoints.md} {

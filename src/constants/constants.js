@@ -35,6 +35,17 @@ export const projects = [
 		visit: 'https://google.com',
 		id: 3,
 	},
+	{
+		title: 'Depth Of Hell',
+		description: "Depths of Hell is small boss-rush game developed by a team working (Rocket Studios) remotely from home. The Rocket Studios was created by CMPT406 group in 2021. \n" +
+			"\n" +
+			"The game features interesting boss battles combined with dynamic difficulty adjustment, thus making it easier or more difficult depending on how the player is performing. The goal is to gain a sense of progression, and insight into how the fights work. ",
+		image: '/images/depth-of-hell.png',
+		tags: ['Unity 2D', 'C#'],
+		source: 'https://github.com/Rocket-Studios/BulletHell',
+		visit: 'https://foolmonkey.github.io/DepthsOfHellWeb/',
+		id: 4,
+	},
 ];
 
 export const timeLineData = [
