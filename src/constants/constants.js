@@ -2,7 +2,7 @@ export const projects = [
 	{
 		title: 'MERN Memories',
 		description: "Using React, Node.js, Express & MongoDB build a Full Stack MERN Application. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-		image: '/images/1.png',
+		image: '/images/memories.png',
 		tags: ['Mongo', 'Express', 'React', 'Node'],
 		source: 'https://github.com/Zhenzhong-Zhou/Memory_Project',
 		visit: 'https://timeline-memories.netlify.app',
