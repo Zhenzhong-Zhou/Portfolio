@@ -28,7 +28,7 @@ const Projects = () => (
 					</TitleContent>
 					<CardInfo>{description}</CardInfo>
 					<div>
-						<TitleContent>Stack</TitleContent>
+						<TitleContent style={{marginTop: "20px"}}>Stack</TitleContent>
 						<TagList>
 							{tags.map((tag, index) => (
 								<Tag key={index}>{tag}</Tag>

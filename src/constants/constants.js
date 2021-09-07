@@ -46,6 +46,15 @@ export const projects = [
 		visit: 'https://foolmonkey.github.io/DepthsOfHellWeb/',
 		id: 4,
 	},
+	{
+		title: 'Admin Dashboard',
+		description: "It is an admin panel design using React, Recharts, Material UI, and CSS. There are some widgets showing some sales information, new members and latest transactions. The analytic chart displays active users monthly.",
+		image: '/images/dashboard.png',
+		tags: ['React', 'JavaScripts', "Recharts", "Material UI", "CSS"],
+		source: 'https://github.com/Zhenzhong-Zhou/Admin_Dashboard',
+		visit: 'https://backend-dashboard.netlify.app/',
+		id: 4,
+	},
 ];
 
 export const timeLineData = [
