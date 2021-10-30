@@ -38,7 +38,7 @@ export default class MyDocument extends Document {
 				</Head>
 				<meta charSet="UTF-8"/>
 				<title>Zhenzhong Zhou's Portfolio</title>
-				<link rel="icon" href="/public/favicon.ico"/>
+				<link rel="shortcut icon" href="icon.png"/>
 				<body>
 				<Main/>
 				<NextScript/>
