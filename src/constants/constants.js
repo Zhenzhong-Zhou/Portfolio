@@ -11,7 +11,7 @@ export const projects = [
 	{
 		title: 'E-Commerce',
 		description: "While building it I use many advanced React & JavaScript topics, and use Stripe for card transactions. And trust me, e-commerce applications are impressive.",
-		image: '/images/2.png',
+		image: '/images/E-Commerce.png',
 		tags: ['React', 'JavaScript'],
 		source: "https://github.com/Zhenzhong-Zhou/E-Commerce",
 		visit: "https://e-commerce-store-practice.netlify.app/",
@@ -54,6 +54,15 @@ export const projects = [
 		source: 'https://github.com/Zhenzhong-Zhou/Admin_Dashboard',
 		visit: 'https://backend-dashboard.netlify.app/',
 		id: 5,
+	},
+	{
+		title: 'NETFLIX',
+		description: "",
+		image: '/images/NETFLIX.png',
+		tags: ['React', 'JavaScripts'],
+		source: 'https://github.com/Zhenzhong-Zhou/Movie_App',
+		visit: 'https://netflix-app-client.netlify.app/register',
+		id: 6,
 	},
 ];
 
