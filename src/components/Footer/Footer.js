@@ -18,16 +18,16 @@ const Footer = () => {
 			<LinkList>
 				<LinkColumn>
 					<LinkTitle>Call</LinkTitle>
-					<LinkItem href={"tel: 306-000-000"}>306-000-000</LinkItem>
+					<LinkItem href={"tel: 306-250-0315"}>306-250-0315</LinkItem>
 				</LinkColumn>
 				<LinkColumn>
 					<LinkTitle>Email</LinkTitle>
-					<LinkItem href={"mailto: bob0823.zhou@gmail.com"}>bob.zhou@usask.ca</LinkItem>
+					<LinkItem href={"mailto: zhenzhong001.zhou@gmail.com"}>zhenzhong001.zhou@gmail.com</LinkItem>
 				</LinkColumn>
 			</LinkList>
 			<SocialIconsContainer>
 				<CompanyContainer>
-					<Slogan>Some slogan.</Slogan>
+					<Slogan>Keep learning and innovating. &nbsp;Ready for the future.</Slogan>
 				</CompanyContainer>
 				<SocialContainer>
 					<SocialIcons href={"https://github.com/Zhenzhong-Zhou"}>

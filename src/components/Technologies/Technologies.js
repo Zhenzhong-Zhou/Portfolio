@@ -13,7 +13,7 @@ const Technologies = () => (
 			Familiarity with various IDEs, including Unity, PyCharm, IntelliJ and WebStorm.<br/>
 			Operating Systems: MacOS and Windows 10.<br/>
 			Practiced software development methodologies: waterfall and Agile.<br/>
-			I've studied and learn with some technologies in the web development world.
+			I've studied and learn with some technologies in the web development world.<br/>
 			From Back-End to Front-End, and using git version control every project
 		</SectionText>
 		<List>
