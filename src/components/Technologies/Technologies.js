@@ -8,8 +8,13 @@ const Technologies = () => (
 		<br/>
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
+			I have some programming experience with C#, UNIX, Java and Python.<br/>
+			I've studied some basic knowledge about Photoshop and command line interface.<br/>
+			Familiarity with various IDEs, including Unity, PyCharm, IntelliJ and WebStorm.<br/>
+			Operating Systems: MacOS and Windows 10.<br/>
+			Practiced software development methodologies: waterfall and Agile.<br/>
 			I've studied and learn with some technologies in the web development world.
-			From Back-End to Front-End
+			From Back-End to Front-End, and using git version control every project
 		</SectionText>
 		<List>
 			<ListItem>
@@ -18,7 +23,7 @@ const Technologies = () => (
 					<ListTitle>Front-End</ListTitle>
 					<ListParagraph>
 						Experience with <br/>
-						React.js
+						React.js and EJS Template
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
@@ -28,18 +33,17 @@ const Technologies = () => (
 					<ListTitle>Back-End</ListTitle>
 					<ListParagraph>
 						Experience with <br/>
-						Node.js and Databases
+						Node.js and Databases: <br/>MySQL and MongoDB
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>
 			<ListItem>
 				<DiZend size={"3rem"}/>
 				<ListContainer>
-					<ListTitle>UI/UX</ListTitle>
+					<ListTitle>Operating System</ListTitle>
 					<ListParagraph>
-						Need Remove<br/>
-						Experience with <br/>
-						tools like Figma
+						macOs<br/>
+						Windows 10 <br/>
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>

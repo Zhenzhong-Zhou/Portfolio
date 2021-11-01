@@ -17,24 +17,24 @@ export const projects = [
 		visit: "https://e-commerce-store-practice.netlify.app/",
 		id: 1,
 	},
-	{
-		title: 'WebRTC App',
-		description: "It is React Video Chat Application using WebRTC.",
-		image: '/images/3.jpg',
-		tags: ['React', 'WebRTC'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
-		id: 2,
-	},
-	{
-		title: 'Unichat',
-		description: "It is a full Realtime Chat Application",
-		image: '/images/4.jpg',
-		tags: ['React', 'ChatEngine', 'Firebase'],
-		source: 'https://google.com',
-		visit: 'https://google.com',
-		id: 3,
-	},
+	// {
+	// 	title: 'WebRTC App',
+	// 	description: "It is React Video Chat Application using WebRTC.",
+	// 	image: '/images/3.jpg',
+	// 	tags: ['React', 'WebRTC'],
+	// 	source: 'https://google.com',
+	// 	visit: 'https://google.com',
+	// 	id: 2,
+	// },
+	// {
+	// 	title: 'Unichat',
+	// 	description: "It is a full Realtime Chat Application",
+	// 	image: '/images/4.jpg',
+	// 	tags: ['React', 'ChatEngine', 'Firebase'],
+	// 	source: 'https://google.com',
+	// 	visit: 'https://google.com',
+	// 	id: 3,
+	// },
 	{
 		title: 'Depth Of Hell',
 		description: "Depths of Hell is small boss-rush game developed by a team working (Rocket Studios) remotely from home. The Rocket Studios was created by CMPT406 group in 2021. \n" +
@@ -63,6 +63,16 @@ export const projects = [
 		source: 'https://github.com/Zhenzhong-Zhou/Movie_App',
 		visit: 'https://netflix-app-client.netlify.app/register',
 		id: 6,
+	},
+	{
+		title: 'CMPT350 - Project',
+		description: "A full stack online web programming for general user to buy or sell products through the website, " +
+			"and it is using JavaScript, HTML and CSS for frontend, also using Nodejs and express for backend, and using MongoDB for database",
+		image: '/images/cmpt350_project.png',
+		tags: ['EJS', "HTML", "CSS", "Node.js", "Express", "MongoDB"],
+		source: 'https://github.com/Zhenzhong-Zhou/Movie_App',
+		visit: 'https://netflix-app-client.netlify.app/register',
+		id: 7,
 	},
 ];
 

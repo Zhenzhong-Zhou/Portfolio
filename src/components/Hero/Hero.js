@@ -10,9 +10,11 @@ const Hero = () => (
 				Zhenzhong Zhou's Portfolio
 			</SectionTitle>
 			<SectionText>
-				Some text.
+				Bachelor of Science – Computer Science&emsp;&emsp;&emsp;2016 – 2021.04<br/>
+				University of Saskatchewan, Saskatoon, SK
+
 			</SectionText>
-			<Button onClick={() => window.location = "https:google.com"}>Learn More</Button>
+			<Button onClick={() => window.location = "https://github.com/Zhenzhong-Zhou"}>Learn More</Button>
 		</LeftSection>
 	</Section>
 );
