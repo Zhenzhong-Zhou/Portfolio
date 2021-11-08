@@ -30,13 +30,13 @@ const Footer = () => {
 					<Slogan>Keep learning and innovating. &nbsp;Ready for the future.</Slogan>
 				</CompanyContainer>
 				<SocialContainer>
-					<SocialIcons href={"https://github.com/Zhenzhong-Zhou"}>
+					<SocialIcons target="_blank" rel="noopener noreferrer" href={"https://github.com/Zhenzhong-Zhou"}>
 						<AiFillGithub size={"3rem"}/>
 					</SocialIcons>
-					<SocialIcons href={"https://www.linkedin.com/in/zhenzhong-zhou/"}>
+					<SocialIcons target="_blank" rel="noopener noreferrer" href={"https://www.linkedin.com/in/zhenzhong-zhou/"}>
 						<AiFillLinkedin size={"3rem"}/>
 					</SocialIcons>
-					<SocialIcons href={"https://instagram.com"}>
+					<SocialIcons target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/zhouzhenzhong/"}>
 						<AiFillInstagram size={"3rem"}/>
 					</SocialIcons>
 				</SocialContainer>

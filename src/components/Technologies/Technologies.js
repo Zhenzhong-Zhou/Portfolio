@@ -11,8 +11,8 @@ const Technologies = () => (
 			I have some programming experience with C#, UNIX, Java and Python.<br/>
 			I've studied some basic knowledge about Photoshop and command line interface.<br/>
 			Familiarity with various IDEs, including Unity, PyCharm, IntelliJ and WebStorm.<br/>
-			Operating Systems: MacOS and Windows 10.<br/>
-			Practiced software development methodologies: waterfall and Agile.<br/>
+			Operating Systems: macOS and Windows 10.<br/>
+			Practiced software development methodologies: Waterfall and Agile.<br/>
 			I've studied and learn with some technologies in the web development world.<br/>
 			From Back-End to Front-End, and using git version control every project
 		</SectionText>
@@ -42,7 +42,7 @@ const Technologies = () => (
 				<ListContainer>
 					<ListTitle>Operating System</ListTitle>
 					<ListParagraph>
-						macOs<br/>
+						macOS<br/>
 						Windows 10 <br/>
 					</ListParagraph>
 				</ListContainer>
