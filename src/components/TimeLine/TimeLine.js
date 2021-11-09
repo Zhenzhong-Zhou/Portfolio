@@ -54,7 +54,12 @@ const Timeline = () => {
 		<Section id={"about"}>
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				Some text.
+				In 2018 when I was studying at university, I created the first static website in my life
+				using HTML and CSS. In 2020, I kept digging in web programming using EJS as a frontend template and
+				using Node.js, Express, and MongoDB as a backend server. I deployed my project with the world
+				when I finished my project. In 2021, I started self-studying React. In the meantime,
+				I use React as a frontend framework, and I use Node.js, Express, and MongoDB to build
+				some personal web projects and deploying on the internet.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>

@@ -8,13 +8,14 @@ const Technologies = () => (
 		<br/>
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I have some programming experience with C#, UNIX, Java and Python.<br/>
-			I've studied some basic knowledge about Photoshop and command line interface.<br/>
-			Familiarity with various IDEs, including Unity, PyCharm, IntelliJ and WebStorm.<br/>
-			Operating Systems: macOS and Windows 10.<br/>
-			Practiced software development methodologies: Waterfall and Agile.<br/>
 			I've studied and learn with some technologies in the web development world.<br/>
-			From Back-End to Front-End, and using git version control every project
+			From Back-End to Front-End, and using git version control to manage every project.<br/>
+			Have some basic idea of UI / UX since using diverse webs / apps<br/>
+			Familiarity with various IDEs, including WebStorm, PyCharm, and IntelliJ.<br/>
+			Practiced and learned software development methodologies: Waterfall and Agile.<br/>
+			I've studied some basic knowledge about Photoshop and command line interface.<br/>
+			I have some programming experiences with C#, UNIX, Java and Python.<br/>
+			Familiarity with game engine: Unity<br/>
 		</SectionText>
 		<List>
 			<ListItem>
