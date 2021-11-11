@@ -17,8 +17,8 @@ export const projects = [
 			"allows users to buy or sell products through the website",
 		image: '/images/cmpt350_project.png',
 		tags: ['EJS', "HTML", "CSS", "Node.js", "Express", "MongoDB"],
-		source: 'https://github.com/Zhenzhong-Zhou/Movie_App',
-		visit: 'https://netflix-app-client.netlify.app/register',
+		source: 'https://github.com/Zhenzhong-Zhou/CMPT350_Project',
+		visit: 'https://cmpt350.herokuapp.com/',
 		id: 1,
 	},
 	{
