@@ -14,7 +14,7 @@ export const projects = [
 		title: 'Tian Mao',
 		description: "Using JavaScript, EJS, HTML, CSS, Node.js, express and MongoDB build a full stack web programming " +
 			"in 2020 when I took course CPMT350. The app is called Tian Mao and it is a simple shopping cart app that " +
-			"allows users to buy or sell products through the website",
+			"allows users to buy or sell products through the website.",
 		image: '/images/cmpt350_project.png',
 		tags: ['EJS', "HTML", "CSS", "Node.js", "Express", "MongoDB"],
 		source: 'https://github.com/Zhenzhong-Zhou/CMPT350_Project',
