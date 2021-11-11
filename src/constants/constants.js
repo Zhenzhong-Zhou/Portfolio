@@ -51,7 +51,7 @@ export const projects = [
 			"The app is called Memories and it is a simple social media app that " +
 			"allows users to post interesting events that happened in their lives. It is a self-studying project.",
 		image: '/images/memories.png',
-		tags: ['Mongo', 'Express', 'React', 'Node'],
+		tags: ['MongoDB', 'Express', 'React', 'Node'],
 		source: 'https://github.com/Zhenzhong-Zhou/Memory_Project',
 		visit: 'https://timeline-memories.netlify.app',
 		id: 4,
