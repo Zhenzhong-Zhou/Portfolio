@@ -54,12 +54,12 @@ const Timeline = () => {
 		<Section id={"about"}>
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				In 2018 when I was studying at university, I created the first static website in my life
+				In 2018 when I studied at university, I created the first static website in my life
 				using HTML and CSS. In 2020, I continued learning web programming using EJS as a frontend template
 				and Node.js, Express, and MongoDB as a backend server. I deployed my project with the world
-				when I finished my project. In 2021, I started self-studying React. In the meantime,
-				I use React as a frontend framework, and I use Node.js, Express, and MongoDB to
-				build some personal web projects and deploying on the internet.
+				when I finished my project. In 2021, I self-studied React using it as a frontend framework,
+				and I also used Node.js, Express, and MongoDB to build some personal web projects and
+				deployed them on the Internet.
 			</SectionText>
 			<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
