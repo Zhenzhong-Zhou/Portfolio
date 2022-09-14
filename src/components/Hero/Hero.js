@@ -15,7 +15,7 @@ const Hero = () => (
 				I am a new graduate university student with qualities of a satisfied organization,
 				time management, critical thinking, self-studying, team-oriented and exceptional communication skills.
 			</SectionText>
-			<Button onClick={() => window.open("resume/Resume.pdf", "_blank", "noopener noreferrer")}>Learn More</Button>
+			<Button onClick={() => window.open("resume/Resume 2022.pdf", "_blank", "noopener noreferrer")}>Learn More</Button>
 		</LeftSection>
 	</Section>
 );
