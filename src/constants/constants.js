@@ -98,6 +98,7 @@ export const timeLineData = [
 ];
 
 export const accomplishmentsData = [
+	{number: 3, text: 'Certifications',},
 	{number: 4, text: 'University Projects'},
 	{number: 5, text: 'Deployment Projects',},
 	{number: 15, text: 'Self Studying Projects',},
