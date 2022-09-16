@@ -88,7 +88,7 @@ export const projects = [
 			"and access information about the cast, synopsis, and more. It is a self-studying project built in 2022.",
 		image: '/images/Blue_boy.png',
 		tags: ['React', 'JavaScript', 'Material UI','Redux', 'Alan AI'],
-		source: 'https://github.com/Zhenzhong-Zhou/Filmpire',
+		source: 'https://github.com/Zhenzhong-Zhou/RPG_2D_Adventure',
 		visit: '/game/RPG_2D_Adventure.jar',
 		id: 7,
 	},
