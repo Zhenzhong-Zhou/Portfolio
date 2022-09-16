@@ -8,14 +8,17 @@ const Technologies = () => (
 		<br/>
 		<SectionTitle>Technologies</SectionTitle>
 		<SectionText>
-			I have learned with some technologies in the web development world.<br/>
-			- From Back-End to Front-End, using git version control to manage every project<br/>
-			- Basic knowledge about UI / UX<br/>
-			- Familiarity with some IDEs, such as WebStorm, PyCharm, and IntelliJ<br/>
-			- Learned and Applied software development methodologies: Waterfall and Agile<br/>
-			- Basic knowledge about Photoshop and command line interface<br/>
-			- Programming experiences with C#, UNIX, Java and Python<br/>
-			- Familiarity with game engine: Unity<br/>
+			•&emsp; Programming experience with Java, C#, Python, JavaScript ES6+, Node.js, HTML5 and CSS3<br/>
+			•&emsp; From backend to frontend, skilled using version control like Git to manage every project<br/>
+			•&emsp; Learned and applied software development methodologies: Waterfall and Agile<br/>
+			•&emsp; Expertise in web development <br/>
+			•&emsp; Knowledgeable with database including MySQL and MongoDB<br/>
+			•&emsp; Familiarity with some IDEs, such as WebStorm, PyCharm, and IntelliJ<br/>
+			•&emsp; Familiarity with game engine: Unity<br/>
+			•&emsp; Frameworks: React, Redux, Material-UI, Next.js, Spring Boot, Express<br/>
+			•&emsp; Managements: NPM, Yarn, Maven<br/>
+			•&emsp; Have some basic knowledge about UI / UX<br/>
+			•&emsp; Basic knowledge about Photoshop and UNIX Shell<br/>
 		</SectionText>
 		<List>
 			<ListItem>
@@ -41,10 +44,11 @@ const Technologies = () => (
 			<ListItem>
 				<DiZend size={"3rem"}/>
 				<ListContainer>
-					<ListTitle>Operating System</ListTitle>
+					<ListTitle>Program Languages</ListTitle>
 					<ListParagraph>
-						macOS<br/>
-						Windows 10 <br/>
+						Java<br/>
+						C#<br/>
+						JavaScript ES6+<br/>
 					</ListParagraph>
 				</ListContainer>
 			</ListItem>

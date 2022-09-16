@@ -23,11 +23,12 @@ export const projects = [
 	},
 	{
 		title: 'Survival Game',
-		description: "Using C# and Unity to build a 2D RPG top-down game. The game is called Survival Game, " +
-			"and it was created by CMPT306 team in 2020. It is a simple dungeon game " +
-			"that users have to survive and fight with curve enemies.",
+		description: "Using C# and Unity to build a 2D RPG top-down game and developed by team remotely from home. " +
+			"The game is called Survival Game, and it was created by CMPT306 team in 2020. The features of this dungeon game is " +
+			"that procedure generate map content, a-star pathfinding and load save game. The goal is that " +
+			"users have to survive and fight with curve enemies.",
 		image: '/images/SurvivalGame.png',
-		tags: ["C#", "Unity 2D"],
+		tags: ["C#", "Unity 2D", 'Git'],
 		source: 'https://github.com/selinaw0327/CMPT306',
 		visit: 'https://github.com/selinaw0327/CMPT306',
 		id: 0,
@@ -40,7 +41,7 @@ export const projects = [
 			"can be dynamically adjusted with the player's performance. The goal is to gain a sense of progression, " +
 			"and have insight into how the fights work. ",
 		image: '/images/depth-of-hell.png',
-		tags: ['C#', 'Unity 2D'],
+		tags: ['C#', 'Unity 2D', 'Git'],
 		source: 'https://github.com/Rocket-Studios/BulletHell',
 		visit: 'https://foolmonkey.github.io/DepthsOfHellWeb/',
 		id: 3,
@@ -49,7 +50,8 @@ export const projects = [
 		title: 'MERN Memories',
 		description: "Using React, Node.js, Express & MongoDB to build a Full Stack MERN Application in 2021. " +
 			"The app is called Memories, and it is a simple social media app that allows users to " +
-			"post interesting events of their daily lives. It is a self-studying project.",
+			"post, edit, update and delete interesting events of their daily lives. Other users can like and dislike posts." +
+			" It is a self-studying project.",
 		image: '/images/memories.png',
 		tags: ['MongoDB', 'Express', 'React', 'Node'],
 		source: 'https://github.com/Zhenzhong-Zhou/Memory_Project',
@@ -67,6 +69,28 @@ export const projects = [
 		source: 'https://github.com/Zhenzhong-Zhou/Admin_Dashboard',
 		visit: 'https://backend-dashboard.netlify.app/',
 		id: 5,
+	},
+	{
+		title: 'Filmpire',
+		description: "Build a comprehensive movie application where users can discover titles within " +
+			"specific categories and genres, save them to watchlists, view trailers for upcoming films, " +
+			"and access information about the cast, synopsis, and more. It is a self-studying project built in 2022.",
+		image: '/images/filmpire.png',
+		tags: ['React', 'JavaScript', 'Material UI','Redux', 'Alan AI'],
+		source: 'https://github.com/Zhenzhong-Zhou/Filmpire',
+		visit: 'https://movie-library-application.netlify.app/',
+		id: 6,
+	},
+	{
+		title: 'Blue Boy Adventure',
+		description: "Build a comprehensive movie application where users can discover titles within " +
+			"specific categories and genres, save them to watchlists, view trailers for upcoming films, " +
+			"and access information about the cast, synopsis, and more. It is a self-studying project built in 2022.",
+		image: '/images/Blue_boy.png',
+		tags: ['React', 'JavaScript', 'Material UI','Redux', 'Alan AI'],
+		source: 'https://github.com/Zhenzhong-Zhou/Filmpire',
+		visit: '/game/RPG_2D_Adventure.jar',
+		id: 7,
 	},
 	// {
 	// 	title: 'NETFLIX',
