@@ -36,6 +36,8 @@ const Projects = () => (
 						</TagList>
 					</div>
 					<UtilityList>
+						//TODO: modified small size style projects, hero
+						//TODO: add git management
 						<ExternalLinks href={visit} target={"_blank"} rel={"noreferrer"}>Visit</ExternalLinks>
 						<ExternalLinks href={source} target={"_blank"} rel={"noreferrer"}>Source</ExternalLinks>
 					</UtilityList>
